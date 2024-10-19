@@ -3,7 +3,7 @@
 ### In this repository I present how I installed, started and configurated an Nginx Server. Besides that, I created a script which ever 5 minutes check if the server is online or offline and register such information in the online log or the offline one. 
 
 
-## Technologies Used:
+## Technologies:
 
 <table>
  <tr>
@@ -29,5 +29,20 @@ How to install the server:
 3.3) Checking Nginx server status: systemctl status nginx (after the print, press 'q' to exit)<br>
 3.4) If the server is off, activate it: systemctl start nginx<br>
 
+```bash 
+$ sudo apt update
 
+$ sudo apt install nginx
+
+$ sudo ufw app list
+
+$ sudo ufw allow 'Nginx HTTP'
+
+$ sudo ufw status
+
+$ sudo ufw enable
+
+$ systemctl status nginx
+
+``` 
 
