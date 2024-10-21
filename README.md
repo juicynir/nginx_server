@@ -19,30 +19,56 @@
 
 ## 💿How to install the server: 
 
-1) Update the list of available packages for Ubuntu: sudo apt update
-2) Installing Nginx: sudo apt install nginx
-3) Configuring Fireall UFW<br>
-3.1) Checking UFW application list: sudo ufw app list<br>
-3.2) In this project we opened door 80 - Nginx HTTP: sudo ufw allow 'Nginx HTTP'<br>
-3.2.1) Checking the Firewall status: sudo ufw status<br>
-3.2.2) If the Firewall is inactive, activate it: sudo ufw enable<br>
-3.3) Checking Nginx server status: systemctl status nginx (after the print, press 'q' to exit)<br>
-3.4) If the server is off, activate it: systemctl start nginx<br>
-
+1) Update the list of available packages for Ubuntu
 ```bash 
 $ sudo apt update
 
+```
+
+2) Installing Nginx
+```bash 
 $ sudo apt install nginx
 
+```
+3) Configuring Fireall UFW<br>
+- 3.1 Checking UFW application list: 
+```bash 
 $ sudo ufw app list
 
+```
+
+- 3.2 In this project we opened door 80 - Nginx HTTP
+```bash 
 $ sudo ufw allow 'Nginx HTTP'
 
+``` 
+  - 3.2.1 Checking the Firewall status
+```bash 
 $ sudo ufw status
 
+```
+
+- 3.2.2 If the Firewall is inactive, activate it<br>
+```bash 
 $ sudo ufw enable
 
-$ systemctl status nginx
+```
 
-``` 
+- 3.3 Checking Nginx server status 
+```bash 
+$  systemctl status nginx 
+
+```
+(after the print, press 'q' to exit)
+
+3.4) If the server is off, activate it <br>
+```bash 
+$  systemctl start nginx
+
+```
+
+
+
+
+
 
