@@ -2,8 +2,15 @@
   
 ### In this repository I present how I installed, started and configurated an Nginx Server. Besides that, I created a script which ever 5 minutes check if the server is online or offline and register such information in the online log or the offline one. 
 
+## 📦 Contents
 
-## 🛠️Technologies:
+<a href="#technologies">Technologies</a>
+<a href="#howtoinstalltheserver">How to install the server</a>
+<a href="#serversscript">Server's script</a>
+<a href="#automatingthescript">Automating the script</a>
+
+
+## 🛠️Technologies
 
 <table>
  <tr>
@@ -17,7 +24,7 @@
   
 </table>
 
-## 💿How to install the server: 
+## 💿How to install the server
 
 1) Update the list of available packages for Ubuntu
 ```bash 
@@ -67,7 +74,7 @@ $  systemctl start nginx
 
 ```
 
-
+## 🗄️ Server's script
 
 
 
