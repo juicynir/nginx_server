@@ -11,7 +11,7 @@
 
 
 
-## 🛠️Technologies
+## 🛠️ Technologies
 
 <table>
  <tr>
@@ -25,7 +25,7 @@
   
 </table>
 
-## 💿How to install the server
+## 💿 How to install the server
 
 1) Update the list of available packages for Ubuntu
 ```bash 
@@ -75,11 +75,11 @@ $  systemctl start nginx
 
 ```
 
-## 🗄️Servers script
+## 🗄️ Servers script
 
 
 
-## 🤖Automating the script
+## 🤖 Automating the script
 
 
 
