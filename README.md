@@ -6,7 +6,7 @@
 
 - [Technologies](#technologies)
 - [How to install the server](#how-to-install-the-server)
-- [Server's script](#servers-script)
+- [Servers script](#servers-script)
 - [Automating the script](#automating-the-script)
 
 
@@ -75,7 +75,7 @@ $  systemctl start nginx
 
 ```
 
-## 🗄️Server's script
+## 🗄️Servers script
 
 
 
