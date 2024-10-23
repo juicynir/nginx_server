@@ -68,7 +68,7 @@ $  systemctl status nginx
 ```
 (after the print, press 'q' to exit)
 
-3.4) If the server is off, activate it <br>
+- 3.4 If the server is off, activate it <br>
 ```bash 
 $  systemctl start nginx
 
