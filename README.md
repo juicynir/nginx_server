@@ -9,10 +9,6 @@
 - [Server's script](#servers-script)
 - [Automating the script](#automating-the-script)
 
-<a href="#technologies">Technologies</a>
-<a href="#howtoinstalltheserver">How to install the server</a>
-<a href="#serversscript">Server's script</a>
-<a href="#automatingthescript">Automating the script</a>
 
 
 ## 🛠️Technologies
@@ -79,8 +75,11 @@ $  systemctl start nginx
 
 ```
 
-## 🗄️ Server's script
+## 🗄️Server's script
 
+
+
+## 🤖Automating the script
 
 
 
