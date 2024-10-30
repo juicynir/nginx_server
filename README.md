@@ -38,7 +38,7 @@ $ sudo apt update
 $ sudo apt install nginx
 
 ```
-3) Configuring Fireall UFW<br>
+3) Configuring Firewall UFW<br>
 - 3.1 Checking UFW application list: 
 ```bash 
 $ sudo ufw app list
@@ -74,6 +74,16 @@ $  systemctl status nginx
 $  systemctl start nginx
 
 ```
+
+4) Discovering the server's IP address
+```bash 
+$  ip addr show
+
+```
+
+After finding out the server's, copy the inet IP and paste it on your browser in order to access the Nginx welcome page.
+
+
 
 ## 🗄️Servers script
 
