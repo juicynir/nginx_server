@@ -97,7 +97,33 @@ After finding out the server's, copy the inet IP and paste it on your browser in
 
 ## 🗄️Servers script
 
+5) In order to monitor Ngnix status, you may write a Shell script, which will be atomated later on. Choose a location to create a .sh file and write the following code:
 
+```bash 
+nano check_nginx.sh
+
+```
+
+```bash 
+#!/bin/bash
+
+SERVICE="nginx"
+
+ONLINE_LOG="/home/reports/nginx_online.log"
+OFFLINE_LOG="/home/reports/nginx_offline.log"
+
+
+if systemctl is-active --quiet $SERVICE
+then
+
+	echo "$(date '+%Y-%m-%d %H:%M:%S'): Serviço $SERVICE está ONLINE e operante." >> $ONLINE_LOG
+
+else
+	echo "$(date '+%Y-%m-%d %H:%M:%S'): Serviço $SERVICE está OFFLINE. Verifique o servidor." >> $OFFLINE_LOG
+
+fi
+
+```
 
 ## 🤖Automating the script
 
