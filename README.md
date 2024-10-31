@@ -137,7 +137,7 @@ chmod +x check_nginx.sh
 
 If everything was done properly, one may get those files on the chosen folder: 
 
-
+![Captura de tela 2024-10-30 223320](https://github.com/user-attachments/assets/286499a7-fc3a-411f-866f-8788221b8d9d)
 
 - 5.2 Understanding the code
 - 5.2.1 Header that discribes what is the used interpreter
@@ -170,5 +170,22 @@ else
 
 ## 🤖Automating the script
 
+6) In order to automate the script one needs edit 'crontab' by using this command:
+```bash 
+crontab -e
+```
+Terminal will ask to choose the editor: 
 
 
+Pick one that is fit to your skills on text editing on Terminal.
+
+- 6.1 Write the following line in the crontab file: 
+```bash 
+*/5 * * * * /home/reports/check_nginx.sh
+```
+
+
+
+Safe and close the file. 
+
+7) To check how to the script is doing, turn it on, wait 5 to 10 minutes. Then turn it off and give some more time for the script register more entries on the logs. If everithing is alright, one may get logs as the following: 
