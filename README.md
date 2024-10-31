@@ -158,6 +158,7 @@ ONLINE_LOG="/home/reports/nginx_online.log"
 OFFLINE_LOG="/home/reports/nginx_offline.log"
 ```
 - 5.2.4 Condition to register the status either on the online log or the offline log.
+  On which of the logs, it is presented the date (year, month, day) and hour.
 ```bash 
 if systemctl is-active --quiet $SERVICE
 then
@@ -189,3 +190,5 @@ Pick one that is fit to your skills on text editing on Terminal.
 Safe and close the file. 
 
 7) To check how to the script is doing, turn it on, wait 5 to 10 minutes. Then turn it off and give some more time for the script register more entries on the logs. If everithing is alright, one may get logs as the following: 
+(To open the logs, use the command: cat your_file.log)
+
