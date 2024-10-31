@@ -11,7 +11,7 @@
 
 
 
-## 🛠️Technologies
+## 🛠️ Technologies
 
 <table>
  <tr>
@@ -192,3 +192,8 @@ Safe and close the file.
 7) To check how to the script is doing, turn it on, wait 5 to 10 minutes. Then turn it off and give some more time for the script register more entries on the logs. If everithing is alright, one may get logs as the following: 
 (To open the logs, use the command: cat your_file.log)
 
+- 7.1 Online Server
+![Captura de tela 2024-10-30 232115](https://github.com/user-attachments/assets/c4f67065-e49c-4616-9763-a9f38c15f021)
+
+- 7.2 Offline Server
+![Captura de tela 2024-10-30 231812](https://github.com/user-attachments/assets/ceba3586-a864-4f27-a48e-bad5368e44a5)
