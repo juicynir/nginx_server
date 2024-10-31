@@ -102,10 +102,12 @@ After finding out the server's, copy the inet IP and paste it on your browser in
 
 5) In order to monitor Ngnix status, you may write a Shell script, which will be atomated later on. Choose a location to create a .sh file and write the following code:
 
+Create and open the files using the given command: 
 ```bash 
 nano check_nginx.sh
 
 ```
+Once the file is open, paste the following code on it! 
 
 ```bash 
 #!/bin/bash
@@ -127,6 +129,8 @@ else
 fi
 
 ```
+
+Save and close the file
 
 - 5.1 To make the script work properly, it is needed to make it executable. To do it so, use the following command:
 ```bash 
