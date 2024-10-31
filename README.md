@@ -125,6 +125,49 @@ fi
 
 ```
 
+- 5.1 To make the script work properly, it is needed to make it executable. To do it so, use the following command:
+```bash 
+chmod +x check_nginx.sh
+```
+
+- 5.1.1 It is possible top test the script with this command:
+```bash 
+./check_nginx.sh
+```
+
+If everything was done properly, one may get those files on the chosen folder: 
+
+
+
+- 5.2 Understanding the code
+- 5.2.1 Header that discribes what is the used interpreter
+
+```bash 
+#!/bin/bash
+```
+
+- 5.2.2 The value of the variable SERVICE is the name of the service to be monotored.
+```bash 
+SERVICE="nginx"
+```
+
+- 5.2.3 Path of the online and offline logs, which are created and edited automatically, if one desires so.  
+
+```bash 
+ONLINE_LOG="/home/reports/nginx_online.log"
+OFFLINE_LOG="/home/reports/nginx_offline.log"
+```
+- 5.2.4 Condition to register the status either on the online log or the offline log.
+```bash 
+if systemctl is-active --quiet $SERVICE
+then
+
+	echo "$(date '+%Y-%m-%d %H:%M:%S'): Serviço $SERVICE está ONLINE e operante." >> $ONLINE_LOG
+
+else
+	echo "$(date '+%Y-%m-%d %H:%M:%S'): Serviço $SERVICE está OFFLINE. Verifique o servidor." >> $OFFLINE_LOG
+```
+
 ## 🤖Automating the script
 
 
