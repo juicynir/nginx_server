@@ -175,7 +175,7 @@ else
 crontab -e
 ```
 Terminal will ask to choose the editor: 
-
+![Captura de tela 2024-10-30 225330](https://github.com/user-attachments/assets/6e84433f-792f-4d28-acc7-b6ea7be967e7)
 
 Pick one that is fit to your skills on text editing on Terminal.
 
@@ -184,7 +184,7 @@ Pick one that is fit to your skills on text editing on Terminal.
 */5 * * * * /home/reports/check_nginx.sh
 ```
 
-
+![Captura de tela 2024-10-30 225809](https://github.com/user-attachments/assets/e33927ed-dc21-46c0-907a-efa5a2b3ded6)
 
 Safe and close the file. 
 
