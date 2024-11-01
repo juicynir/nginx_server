@@ -1,6 +1,6 @@
 ![0_mjG1YdoT7xPcnznN](https://github.com/user-attachments/assets/e7c93ab4-7bf5-47da-a98f-677128aeca31)
   
-### In this repository I present how I installed, started and configurated an Nginx Server. Besides that, I created a script which was automated to run ever 5 minutes to check if the server is online or offline. In addition, the server's status information is registered either in the online log or the offline log. 
+### In this repository it is presented how to install, start and configurate an Nginx Server. Besides that, a script was created and automated to run ever 5 minutes to check if the server is online or offline. In addition, the server's status information is registered either in the online log or the offline log. 
 
 ## Table of Contents
 
